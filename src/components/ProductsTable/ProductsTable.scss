@@ -1,0 +1,32 @@
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 100px auto;
+  background-color: rgb(247, 247, 247);
+}
+tr {
+  border-bottom: 3px solid rgb(148, 148, 148);
+  padding: 20px;
+  text-align: center;
+}
+th {
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+.size {
+  width: 100px;
+  height: 100px;
+}

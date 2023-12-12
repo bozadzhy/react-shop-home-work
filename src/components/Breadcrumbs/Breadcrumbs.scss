@@ -1,0 +1,23 @@
+.breadcrumbs {
+  max-width: 1200px;
+  text-decoration: underline;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  > * {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .crumb::after {
+    content: ">";
+    margin-left: 10px;
+  }
+  .crumb:last-child::after {
+    display: none;
+  }
+  a {
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+    font-family: "Montserrat";
+  }
+}

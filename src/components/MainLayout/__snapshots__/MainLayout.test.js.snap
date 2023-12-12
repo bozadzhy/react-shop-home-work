@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainLayout Snapshot Test should match snapshot for MainLayout component 1`] = `
+Array [
+  <div
+    className="root"
+  >
+    <div
+      className="container"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <svg
+            className="logo"
+          >
+            logo.svg
+          </svg>
+        </a>
+      </div>
+      <div
+        className="wrap"
+      >
+        <span
+          className="theme"
+          onClick={[Function]}
+        >
+          <svg>
+            square1.svg
+          </svg>
+        </span>
+        <a
+          className="header-icon"
+          href="/favorites"
+          onClick={[Function]}
+        >
+          <svg>
+            starIcon.svg
+          </svg>
+          <span>
+            0
+          </span>
+        </a>
+        <a
+          className="header-icon"
+          href="/cart"
+          onClick={[Function]}
+        >
+          <svg>
+            cart.svg
+          </svg>
+          <span>
+            0
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footer"
+  >
+    Footer
+  </div>,
+]
+`;

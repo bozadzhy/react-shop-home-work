@@ -1,0 +1,37 @@
+.container-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  color: grey;
+  margin-bottom: 30px;
+  .item-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+  .color {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+  
+}
+.img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 12px;
+  }
+.theme {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
